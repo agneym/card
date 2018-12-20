@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const boxen = require("boxen");
 
-const options = {
+const boxOptions = {
   padding: 1,
   margin: 1,
   borderStyle: "double",
@@ -11,6 +11,11 @@ const options = {
   float: "center",
   borderColor: "#FF729F",
   dimBorder: true,
+}
+
+const textOptions = {
+  label: "bold",
+  value: "cyanBright",
 }
 
 const details = {
@@ -25,14 +30,14 @@ const details = {
 }
 
 const output = chalk`
-  ${details.name} {cyanBright ${details.handle}}
+  ${details.name} / {${textOptions.value} ${details.handle}}
 
-  {bold Work}:  {cyanBright ${details.work}}
-  {bold Twitter}:  {cyanBright ${details.twitter}}
-  {bold Github}:  {cyanBright ${details.github}}
-  {bold Linkedin}:  {cyanBright ${details.linkedin}}
-  {bold Web}:  {cyanBright ${details.web}}
-  {bold npx}:  {cyanBright ${details.npx}}
+  {${textOptions.label} Work}:  {bold ${details.work}}
+  {${textOptions.label} Twitter}:  {${textOptions.value} ${details.twitter}}
+  {${textOptions.label} Github}:  {${textOptions.value} ${details.github}}
+  {${textOptions.label} Linkedin}:  {${textOptions.value} ${details.linkedin}}
+  {${textOptions.label} Web}:  {${textOptions.value} ${details.web}}
+  {${textOptions.label} npx}:  {${textOptions.value} ${details.npx}}
 `;
 
-console.log(boxen(output, options));
+console.log(boxen(output, boxOptions));
