@@ -23,9 +23,9 @@ const details = {
   handle: "Boy with Silver Wings",
   work: "Javascript Developer @ Dexlock",
   twitter: "https://twitter.com/agneymenon",
-  github: "https://github.com/boywithsilverwings",
+  github: "https://github.com/agneym",
   linkedin: "https://linkedin.com/in/agneymenon",
-  web: "https://boywithsilverwings.github.io",
+  web: "https://agney.dev",
   npx: "npx boywithsilverwings",
 }
 
