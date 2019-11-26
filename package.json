@@ -9,8 +9,11 @@
   "bin": {
     "boywithsilverwings": "./bin/card.js"
   },
-  "keywords": [],
-  "author": "Boy with Silver Wings <agney@outlook.in>",
+  "keywords": [
+    "profile",
+    "card"
+  ],
+  "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
   "dependencies": {
     "boxen": "^4.1.0",
@@ -18,5 +21,12 @@
   },
   "devDependencies": {
     "standard": "^14.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agneym/card"
+  },
+  "bugs": {
+    "url": "https://github.com/agneym/card/issues"
   }
 }
