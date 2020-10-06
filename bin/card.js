@@ -21,7 +21,7 @@ const textOptions = {
 const details = {
   name: "Agney Menon",
   handle: "Boy with Silver Wings",
-  work: "Javascript Developer @ Dexlock",
+  work: "Javascript Developer @ BigBinary",
   twitter: "https://twitter.com/agneymenon",
   github: "https://github.com/agneym",
   linkedin: "https://linkedin.com/in/agneymenon",
