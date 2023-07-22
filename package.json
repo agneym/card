@@ -21,7 +21,7 @@
     "chalk": "^4.1.0"
   },
   "devDependencies": {
-    "np": "^6.5.0",
+    "np": "^8.0.4",
     "standard": "^14.3.4"
   },
   "repository": {
